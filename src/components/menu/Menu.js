@@ -76,7 +76,7 @@ export const Menu = () => {
           </div>
         </div>
         <div className="menu-close-icon">
-          <p>&#x2715;</p>
+          <p onClick={toggleMenu}>&#x2715;</p>
         </div>
         <div className="menu-copy">
           <div className="menu-links">
